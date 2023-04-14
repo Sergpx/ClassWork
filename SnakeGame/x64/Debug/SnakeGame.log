@@ -1,0 +1,7 @@
+﻿  SnakeGame.cpp
+C:\Users\Взрослая академия\Documents\Serg\SnakeGame\SnakeGame.cpp(20,32): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\SnakeGame\SnakeGame.cpp(21,53): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\SnakeGame\SnakeGame.cpp(47,48): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\SnakeGame\SnakeGame.cpp(58,52): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\SnakeGame\SnakeGame.cpp(76,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  SnakeGame.vcxproj -> C:\Users\Взрослая академия\Documents\Serg\SnakeGame\x64\Debug\SnakeGame.exe
