@@ -1,1 +1,2 @@
 C:\Users\Взрослая академия\Documents\Serg\SnakeGame\x64\Debug\SnakeGame.exe
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\x64\Debug\SnakeGame.exe

@@ -15,6 +15,14 @@ char** createField(int size) {
 //рендер поля
 void render(char** field, int** snake, int* fruit) {
     system("cls");
+    int sizeField = _msize(field) / sizeof(field[0]);
+
+    for (int i = 0; i < sizeField; i++) {
+        for (int j = 0; j < sizeField; j++) {
+            field[i][j] = '~';
+        }
+    }
+
     for (int i = 0; i < MARGIN; i++) cout << endl;
 
     int size = _msize(field[0]);
@@ -82,6 +90,68 @@ bool unions(int** snake, int* fruit) {
     return true;
 }
 
+void step(int** snake, char s) {
+    int size = _msize(snake) / sizeof(snake[0]);
+
+    switch (s) {
+    case 'w':
+        if (snake[0][0] - 1 != snake[1][0]) {
+            if (snake[0][0] != 0 && snake[1][0] != SIZE_FIELD - 1) {
+                for (int i = size - 1; i > 0; i--) {
+                    swap(snake[i], snake[i - 1]);
+                }
+                if (snake[1][0] == 0) {
+                    snake[0][0] = SIZE_FIELD - 1;
+                }
+                else  snake[0][0] = snake[1][0] - 1; // координата y
+                snake[0][1] = snake[1][1]; // координата x
+                break;
+            }
+            else {
+                cout << "Нельзя сюда идти" << endl;
+                break;
+            }
+        }
+        else {
+            cout << "Нельзя сюда идти" << endl;
+            break;
+        }
+
+    case 'a':
+        for (int i = size - 1; i > 0; i--) {
+            swap(snake[i], snake[i - 1]);
+        }
+        if (snake[1][1] == 0) {
+            snake[0][1] = SIZE_FIELD - 1; // координата x
+        }
+        else snake[0][1] = snake[1][1] - 1; // координата x
+        snake[0][0] = snake[1][0]; // координата y
+        break;
+
+    case 'd':
+        for (int i = size - 1; i > 0; i--) {
+            swap(snake[i], snake[i - 1]);
+        }
+        if (snake[1][1] == SIZE_FIELD - 1) {
+            snake[0][1] = 0; // координата x
+        }
+        else snake[0][1] = snake[1][1] +1; // координата x
+        snake[0][0] = snake[1][0]; // координата y
+        break;
+    case 's':
+        for (int i = size - 1; i > 0; i--) {
+            swap(snake[i], snake[i - 1]);
+        }
+        if (snake[1][0] == SIZE_FIELD - 1) {
+            snake[0][0] = 0; // координата x
+        }
+        else snake[0][0] = snake[1][0] + 1; // координата x
+        snake[0][1] = snake[1][1]; // координата y
+        break;
+    }
+    
+}
+
 int main()
 {
     srand(time(NULL));
@@ -94,6 +164,10 @@ int main()
     setPosition(fruit, snake);
 
     render(field, snake, fruit);
-    
+    char s;
+    while (true) {
+        cin >> s;
+        step(snake, s);
+        render(field, snake, fruit);
+    }
 }
-

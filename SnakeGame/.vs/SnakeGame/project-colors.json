@@ -5,6 +5,11 @@
       "ProjectGuid": "a290968e-9902-420c-9d9b-e525ed3f5fe6",
       "DisplayName": "SnakeGame",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
