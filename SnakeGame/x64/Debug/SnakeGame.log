@@ -1,10 +1,11 @@
 ﻿  main.cpp
-C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(18,53): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(28,32): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(29,53): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(55,48): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(66,52): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(83,48): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(94,48): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(157,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(26,50): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(34,29): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(35,50): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(55,45): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(70,45): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(80,45): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(102,45): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(189,45): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\main.cpp(200,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   SnakeGame.vcxproj -> C:\Users\Взрослая академия\Documents\Serg\ClassWork\SnakeGame\x64\Debug\SnakeGame.exe
