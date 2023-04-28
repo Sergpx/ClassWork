@@ -2,14 +2,15 @@
 #include <string>
 #include <fstream>
 
-#define num 13
+#define num 14
+
 
 
 
 
 using namespace std;
 
-void findString(string str, string word) {
+bool findString(string str, string word) {
     int size = str.length();
     int size2 = word.length();
     bool flag;
@@ -17,18 +18,17 @@ void findString(string str, string word) {
         flag = true;
         if (str[i] == word[0]) {
             for (int j = 0; j < size2; j++) {
-                cout << str[i + j] << endl;
                 if (word[j] != str[i + j]) {
                     flag = false;
                     break;
                 }
+                
             }
-            if (flag == true) break;
-            
+            if (flag) return true;
+            else return false;
         }
     }
-    if (flag) cout << "YES";
-    else cout << "NO";
+    
 }
 
 void isNum(int* array, int number) {
@@ -115,8 +115,18 @@ void showArray(int** array) {
     }
 }
 
+struct human {
+
+    string name = "Noname";
+    int age;
+    int hight;
+    int weight;
+
+};
+
 int main()
 {
+    setlocale(LC_ALL, "Ru_ru");
 #if num == 1
     // 1
     int a, b, c, d;
@@ -250,9 +260,22 @@ int main()
     string str = "Hello, what's your name?";
     string word;
     cin >> word;
-    findString(str, word);
+    if (findString(str, word)) cout << "Данное слово есть в строке" << endl;
+    else cout << "Данного слова нет в строке" << endl;
     
     
+#elif num == 14
+human hum1 = { "John", 19, 180, 60 };
+human hum2 = { "Vlad", 25, 178, 70 };
+human hum3 = { "Mark", 34, 190, 80 };
+
+human humList[3] = { hum1, hum2, hum3 };
+
+cout << "----------------------" << endl;
+for (int i = 0; i < 3; i++) {
+    cout << humList[i].name << " | " << humList[i].age << " | " << humList[i].hight << " | " << humList[i].weight << " | " << endl;
+    cout << "----------------------" << endl;
+}
 
 #endif
 }

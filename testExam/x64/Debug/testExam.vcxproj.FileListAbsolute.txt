@@ -1,1 +1,2 @@
 C:\Users\Взрослая академия\Documents\Serg\testExam\x64\Debug\testExam.exe
+C:\Users\Serg\source\repos\ClassWork\testExam\x64\Debug\testExam.exe
