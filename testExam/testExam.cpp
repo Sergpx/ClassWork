@@ -129,7 +129,7 @@ int main()
     setlocale(LC_ALL, "Ru_ru");
 #if num == 1
     // 1
-    int a, b, c, d;
+    float a, b, c, d;
     cin >> a >> b >> c >> d;
     if (a >= b && a >= c && a >= d) cout << a;
     else if (b >= a && b >= c && b >= d) cout << b;
@@ -278,6 +278,4 @@ for (int i = 0; i < 3; i++) {
 }
 
 #endif
-
-// test2
 }
