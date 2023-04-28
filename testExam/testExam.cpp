@@ -2,7 +2,7 @@
 #include <string>
 #include <fstream>
 
-#define num 14
+#define num 13
 
 
 
@@ -25,9 +25,10 @@ bool findString(string str, string word) {
                 
             }
             if (flag) return true;
-            else return false;
+            
         }
     }
+    return false;
     
 }
 
