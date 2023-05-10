@@ -1,11 +1,11 @@
 ﻿  testExam.cpp
-C:\Users\Взрослая академия\Documents\Serg\testExam\testExam.cpp(13,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\testExam\testExam.cpp(14,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\testExam\testExam.cpp(36,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\testExam\testExam.cpp(50,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\testExam\testExam.cpp(62,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\testExam\testExam.cpp(79,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\testExam\testExam.cpp(102,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\testExam\testExam.cpp(107,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Взрослая академия\Documents\Serg\testExam\testExam.cpp(108,55): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  testExam.vcxproj -> C:\Users\Взрослая академия\Documents\Serg\testExam\x64\Debug\testExam.exe
+C:\Users\Serg\source\repos\ClassWork\testExam\testExam.cpp(14,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Serg\source\repos\ClassWork\testExam\testExam.cpp(15,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Serg\source\repos\ClassWork\testExam\testExam.cpp(37,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Serg\source\repos\ClassWork\testExam\testExam.cpp(51,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Serg\source\repos\ClassWork\testExam\testExam.cpp(63,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Serg\source\repos\ClassWork\testExam\testExam.cpp(80,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Serg\source\repos\ClassWork\testExam\testExam.cpp(103,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Serg\source\repos\ClassWork\testExam\testExam.cpp(108,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Serg\source\repos\ClassWork\testExam\testExam.cpp(109,55): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  testExam.vcxproj -> C:\Users\Serg\source\repos\ClassWork\testExam\x64\Debug\testExam.exe
