@@ -1,0 +1,22 @@
+﻿  Exam.cpp
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(27,51): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(28,57): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(51,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(52,55): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(62,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(63,55): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(79,51): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(80,57): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(81,51): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(99,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(106,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(119,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(133,49): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(134,55): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(183,32): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(197,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(199,14): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(204,16): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(210,16): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Взрослая академия\Documents\Serg\Exam\Exam.cpp(223,16): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Exam.vcxproj -> C:\Users\Взрослая академия\Documents\Serg\Exam\x64\Debug\Exam.exe
